@@ -1,0 +1,88 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Inter", "Segoe UI", Arial, sans-serif;
+    background-color: #0f172a; 
+    color: #e5e7eb;
+    line-height: 1.8;
+    padding: 48px;
+    background-image: url(https://i.pinimg.com/1200x/dd/2f/71/dd2f711b30283242beb9bf5d88fd09a5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#title {
+    text-align: center;
+    margin-bottom: 14px;
+    color: #38bdf8; 
+    letter-spacing: 1px;
+}
+
+
+.intro {
+    text-align: center;
+    color: #cbd5f5;
+    margin-bottom: 36px;
+}
+
+
+.identity {
+    list-style: none;
+    max-width: 520px;
+    margin: 0 auto 36px auto;
+    background-color: #020617;
+    padding: 28px 32px;
+    border-radius: 12px;
+    border-left: #567cd3 4px solid;
+  
+}
+
+
+.identity li {
+    margin-bottom: 14px;
+}
+
+
+.item {
+    color: #e0e7ff;
+}
+
+.red {
+    color: #fb7185; 
+    font-weight: 500;
+}
+
+.brown {
+    color: #facc15;
+}
+
+
+.content {
+    max-width: 520px;
+    margin: 0 auto;
+    background-color: #020617;
+    padding: 28px 32px;
+    border-radius: 12px;
+    border-bottom: 4px solid #567cd3;
+  
+}
+
+
+#future {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #567cd3;
+}
+
+
+.yellow {
+    color: #d1d5db;
+}
