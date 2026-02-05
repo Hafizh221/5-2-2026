@@ -15,6 +15,7 @@ body {
     background-image: url(https://i.pinimg.com/1200x/dd/2f/71/dd2f711b30283242beb9bf5d88fd09a5.jpg);
     background-size: cover;
     background-position: center;
+    
 }
 
 
@@ -63,6 +64,19 @@ body {
     color: #facc15;
 }
 
+.gambar {
+    background-image: url("rehan.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    padding: 4px;
+    margin: 0 auto 36px auto;
+    
+}
+
+
 
 .content {
     max-width: 520px;
@@ -86,3 +100,66 @@ body {
 .yellow {
     color: #d1d5db;
 }
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(24px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+body {
+    animation: fadeUp 1s ease forwards;
+}
+#title {
+    animation: fadeUp 0.8s ease forwards;
+}
+
+.intro {
+    animation: fadeUp 0.8s ease forwards;
+    animation-delay: 0.2s;
+}
+
+.gambar {
+    animation: fadeUp 0.8s ease forwards;
+    animation-delay: 0.4s;
+}
+
+.identity,
+.content {
+    animation: fadeUp 0.8s ease forwards;
+    animation-delay: 0.6s;
+}
+.identity,
+.content {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.identity:hover,
+.content:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(45, 157, 213, 0.15);
+}
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.gambar {
+    animation: float 6s ease-in-out infinite;
+}
+
+
+
+
+
